@@ -3,7 +3,7 @@ import type { KeyValueCache } from '@apollo/utils.keyvaluecache';
 import { Order } from '../__generated__/resolvers-types';
 
 export class OrderAPI extends RESTDataSource {
-  override baseURL = 'http://localdev.snaples.dev.macrofab.com:5140/';
+  override baseURL = 'http://localhost/';
 
   //   async getOrder(id): Promise<Order> {
   //     return this.get<Order>(`movies/${encodeURIComponent(id)}`);

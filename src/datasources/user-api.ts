@@ -5,7 +5,7 @@ import { IncomingHttpHeaders } from 'http';
 import { User } from '../__generated__/resolvers-types';
 
 export class UserAPI extends RESTDataSource {
-  override baseURL = 'http://localdev.snaples.dev.macrofab.com:5145/';
+  override baseURL = 'http://localhost/';
   private apikey: string;
   headers: IncomingHttpHeaders;
 
